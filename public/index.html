@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testproject</title>
+    <link rel="stylesheet" href="./Vender/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-banner">
+            <img src="./Assets/topbg.png" alt="img" style="position: relative;" height="100%" width="100%" />
+            <p class="top-text">Save up to $500 per year on millions of book titles!</p>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Assets/logo1.svg" alt="Logo">
+            </div>
+            <div class="search-bar">
+                <input id="keywords" type="text" placeholder="Search">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rent Textbooks</a></li>
+                <li><a href="#">Buy Textbooks</a></li>
+                <li><a href="#" id="border-left">Sell Textbooks</a></li>
+            </ul>
+            <div class="language-switcher">
+                <img src="./Assets/Icon-globe.svg" />
+                <span> En</span>
+            </div>
+            <div class="contact-button">
+                <button><a href="./searchresult.html" style="    color: white;
+    text-decoration: none;">Contact</a></button>
+            </div>
+        </nav>
+    </header>
+    <section class="section" id="newContent" style="display: none;">
+        <!-- New content will be inserted here -->
+    </section>
+    <banner id="banner">
+        <div class="banner">
+            <div class="first-banner">
+                <div class="first-banner-left">
+                    <p class="first-big-text">The Cheapest<br> Textbooks</p>
+                    <p class="first-small-text">Save Up To 90% On Millions <br> Of Titles</p>
+                    <button class="first-banner-button"><a href="#" class="cta">Get Started</a></button>
+                </div>
+                <div class="first-banner-right">
+                    <img src="./Assets/first-banner-right.svg" height="95%" width="85%" />
+                </div>
+            </div>
+            <div class="second-banner">
+                <img src="./Assets/second-banner-left.png" style="height: 30%;
+                width: 34%;
+                margin-left: 140px;" />
+                <div class="second-banner-right">
+                    <p class="second-big-text">Our commitment</p>
+                    <p class="second-small-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br>
+                        sed diam nonumy eirmod tempor invidunt ut labore et <br>
+                        dolore magna aliquyam erat, sed diam voluptua. At <br>
+                        vero eos et accusam et justo duo dolores et ea rebum
+                    </p>
+                    <button class="second-banner-button"><a href="#" class="cta" style="font-family: monospace;
+    font-size: 20px;">Learn More</a></button>
+                </div>
+            </div>
+            <div class="third-banner">
+                <div class="third-banner-title">
+                    <p style="margin-right:20px">Trusted By Awesome </p>
+                    <p style="color: bisque;"> Clients</p>
+                </div>
+                <div class="third-banner-contents">
+                    <div class="first-content">
+                        <img src="./Assets/binance.svg" />
+                        <p style="margin-left: 20px;">Binance</p>
+                    </div>
+                    <div class="second-content">
+                        <img src="./Assets/bitcoin.svg" />
+                        <p style="margin-left: 20px;">Bitcoin</p>
+                    </div>
+                    <div class="third-content">
+                        <img src="./Assets/solana-sol-logo.svg" />
+                        <p style="margin-left: 20px;">Solana</p>
+                    </div>
+                    <div class="fourth-content">
+                        <img src="./Assets/Ethereum.svg" />
+                        <p style="margin-left: 20px;">Ethereum</p>
+                    </div>
+                    <div class="fifth-content">
+                        <img src="./Assets/tether-usdt-logo.svg" />
+                        <p style="margin-left: 20px;">Tether</p>
+                    </div>
+                    <div class="sixth-content">
+                        <img src="./Assets/xrp.svg" />
+                        <p style="margin-left: 20px;">XRP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </banner>
+    <section class="mysecond" id="first-remove">
+        <div style="    top: 250%;
+            position: absolute;
+            z-index: -1;
+            margin-top: 20%;
+            background-color: cornflowerblue;
+            width: 100%;
+            height: 890px;
+            transform: skewY(-3deg);
+            margin-bottom: 447px;">
+        </div>
+        <div class="first-section">
+            <p class="first-section-title">Explore Our Books</p>
+            <p class="first-section-undertitle">With our dedicated customer suport team, you can rest easy knowing that
+                we're doing everything <br>
+                we can to save you time, money, and stress.
+            </p>
+            <div class="first-section-images">
+                <div class="first-section-imageb">
+                    <img src="./Assets/1.png" id="three" />
+                    <p id="one">Doughnuts And Doom</p>
+                    <a id="two">View Book Details > </a>
+                </div>
+                <div class="first-section-imageo">
+                    <img src="./Assets/2.png" id="three" />
+                    <p id="one">The Bend Of Luck</p>
+                    <a id="two">View Book Details > </a>
+                </div>
+                <div class="first-section-imagex">
+                    <img src="./Assets/3.png" id="three" />
+                    <p id="one">The Underwater Welder</p>
+                    <a id="two">View Book Details > </a>
+                </div>
+            </div>
+        </div>
+        <div class="second-section" style="margin: 100px;">
+            <p class="second-section-small">LOREM IPSUM</p>
+            <p class="second-section-undertitle">3 Reasons To Shop With Us</p>
+            <div class="second-section-images">
+                <div class="second-section-imageb">
+                    <img src="./Assets/01.svg" />
+                    <p id="second-one">All textbook rentals come<br>
+                        with free return shipping.</p>
+                    <p id="second-two">Lorem ipsum dolor sit amet, consetetur <br>
+                        sadipscing elitr, sed diam nonumy eirmod tempor <br>
+                        invidunt ut labore et dolore Stet clita kasd <br>
+                        gubergren, no sea takimata.</p>
+                </div>
+                <div class="second-section-imageo">
+                    <img src="./Assets/02.svg" />
+                    <p id="second-one">Dedicated customer <br>
+                        support and help portal.</p>
+                    <p id="second-two">Lorem ipsum dolor sit amet, consetetur <br>
+                        sadipscing elitr, sed diam nonumy eirmod tempor <br>
+                        invidunt ut labore et dolore Stet clita kasd <br>
+                        gubergren, no sea takimata.</p>
+                </div>
+                <div class="second-section-imagex">
+                    <img src="./Assets/03.svg" />
+                    <p id="second-one">Buy or rent cheap textbooks <br>
+                        & save up to $500 per year!</p>
+                    <p id="second-two">Lorem ipsum dolor sit amet, consetetur <br>
+                        sadipscing elitr, sed diam nonumy eirmod tempor <br>
+                        invidunt ut labore et dolore Stet clita kasd <br>
+                        gubergren, no sea takimata.</p>
+                </div>
+            </div>
+        </div>
+        <div class="third-section" style="margin: 150px;">
+            <div class="third-section-title" style="margin: 100px;">
+                <p class="third-section-title-one">Andrew Santellan</p>
+                <p class="third-section-title-two">Product Manager, Binance</p>
+            </div>
+            <div class="third-sectioin-second">
+                <img src="./Assets/binance.svg" />
+                <p style="margin-left: 20px; margin-left: 20px;
+                font-size: 33px;
+                font-weight: bold;
+                color: darkgrey;">Binance</p>
+            </div>
+            <div class="third-section-box">
+                <img src="./Assets/user.png" style="      position: absolute;
+    bottom: -350%;" />
+                <p style="position: revert;
+                border: solid 2px;
+                border-color: black;
+                width: 70%;
+                height: 75px;
+                color: lightskyblue;
+                border-radius: 22px;
+                top: 646%;
+                background-color: lightskyblue;
+                border: none;">I am strong.</p>
+                <div class="third-section-box-content">
+                    <p style="        text-align: center;
+                    font-size: 30px;
+                    color: white;
+                    font-family: cursive;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br>
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam <br>
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et <br>
+                        ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est <br>
+                        Lorem ipsum dolor sit amet.</p>
+                    <img src="./Assets/star.svg" style="   margin-left: 39%;
+                    width: 25%;
+                    height: 30%;
+                    margin-top: 50px;
+            " />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: gainsboro; padding: 161px;" id="second-remove">
+        <div class="container">
+            <div class="questions">
+                <h1>Frequently Asked Question</h1>
+                <div>
+                    <h3 class="question">
+                        Dedicated customer support and help portal.
+                        <img src="./Assets/icon-arrow-down.svg" alt="" />
+                    </h3>
+                    <p class="answer">
+                        With our dedicated customer support team, you can rest easy knowing that we’re doing
+                        everything we can to save you time, money, and stress.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="question">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        <img src="./Assets/icon-arrow-down.svg" alt="" />
+                    </h3>
+                    <p class="answer">
+                        With our dedicated customer support team, you can rest easy knowing that we’re doing
+                        everything we can to save you time, money, and stress.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="question">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        <img src="./Assets/icon-arrow-down.svg" alt="" />
+                    </h3>
+                    <p class="answer">
+                        With our dedicated customer support team, you can rest easy knowing that we’re doing
+                        everything we can to save you time, money, and stress.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="question">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        <img src="./Assets/icon-arrow-down.svg" alt="" />
+                    </h3>
+                    <p class="answer">
+                        With our dedicated customer support team, you can rest easy knowing that we’re doing
+                        everything we can to save you time, money, and stress.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="./Assets/logo1.svg" alt="XYZ Logo" class="footer-logo">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                <form class="footer-form">
+                    <input type="email" placeholder="Email Address" class="footer-input">
+                    <button type="submit" class="footer-button">&#10140;</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Help & FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Help & FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <img src="./Assets/message.png" style="width: 7%;
+            height: 7%;
+            margin-top: 13%;" /><br>
+        </div>
+        <div class="last-option">
+            <p>&copy; 2022 Brainly.</p>
+            <div class="footer-social">
+                <a href="#"><img src="./Assets/11.svg" alt="Facebook"></a>
+                <a href="#"><img src="./Assets/12.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="./Assets/13.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Vender/script.js"></script>
+</body>
+
+</html>

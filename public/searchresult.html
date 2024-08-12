@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>searchresult</title>
+    <link rel="stylesheet" href="./Vender/serchresult.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-banner">
+            <img src="./Assets/topbg.png" alt="img" style="position: relative;" height="100%" width="100%" />
+            <p class="top-text">Save up to $500 per year on millions of book titles!</p>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Assets/logo1.svg" alt="Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rent Textbooks</a></li>
+                <li><a href="#">Buy Textbooks</a></li>
+                <li><a href="#" id="border-left">Sell Textbooks</a></li>
+            </ul>
+            <div class="language-switcher">
+                <img src="./Assets/Icon-globe.svg" />
+                <span> En</span>
+            </div>
+            <div class="contact-button">
+                <button>Contact</button>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <p class="section-title">Search Result</p>
+        <div class="section-content">
+            <img src="./Assets/1.png" width="37%" />
+            <div class="text-content">
+                <p class="content-title" id="title">${rowData.Title}</p>
+                <p class="content-undertext" id="author">${rowData.Author}</p>
+                <div class="content-list">
+                    <div class="Edition">
+                        <p>Edition: </p>
+                        <p class="style-color" id="isbn13">${rowData.Edition || 'N/A'}</p>
+                    </div>
+                    <div class="Edition">
+                        <p>Price: </p>
+                        <p class="style-color" id="price">$${rowData.Price}</p>
+                    </div>
+                    <div class="Edition">
+                        <p>ISBN: </p>
+                        <p class="style-color" id="deition">${rowData['ISBN 13']}</p>
+                    </div>
+                    <div class="Edition">
+                        <p>Publication Year:: </p>
+                        <p class="style-color" id="publicationYear">${rowData.Publicationi_year}</p>
+                    </div>
+                    <div class="Edition">
+                        <p>Publisher: </p>
+                        <p class="style-color" id="publisher">${rowData.Publisher}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="./Assets/logo1.svg" alt="XYZ Logo" class="footer-logo">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                <form class="footer-form">
+                    <input type="email" placeholder="Email Address" class="footer-input">
+                    <button type="submit" class="footer-button">&#10140;</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Help & FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Help & FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <img src="./Assets/message.png" style="width: 7%;
+            height: 7%;
+            margin-top: 13%;" /><br>
+        </div>
+        <div class="last-option">
+            <p>&copy; 2022 Brainly.</p>
+            <div class="footer-social">
+                <a href="#"><img src="./Assets/11.svg" alt="Facebook"></a>
+                <a href="#"><img src="./Assets/12.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="./Assets/13.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src=""></script>
+</body>
+
+</html>
